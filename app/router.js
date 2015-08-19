@@ -6,6 +6,8 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.resource('chart-template', { path: '/' });
+  this.route('chart-template');
 });
 
 export default Router;

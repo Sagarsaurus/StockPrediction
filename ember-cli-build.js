@@ -6,6 +6,15 @@ module.exports = function(defaults) {
     // Add options here
   });
 
+  //app.import(app.bowerDirectory + '/d3/d3.min.js');
+  app.import(app.bowerDirectory + '/bootstrap/dist/js/bootstrap.js');
+  app.import(app.bowerDirectory + '/bootstrap/dist/css/bootstrap.css');
+  //app.import(app.bowerDirectory + '/ember-charts/dist/ember-charts.min.js');
+  //app.import(app.bowerDirectory + '/ember-charts/dist/ember-charts.css');
+
+
+
+
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
